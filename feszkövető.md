@@ -1,54 +1,43 @@
-# Jegyzőkönyv: Feszültség Követő Mérés Oszcilloszkóppal és Feszültség Generátorral
+# Jegyzőkönyv: Feszültség Követő Mérés 1 kHz-es Jel segítségével Oszcilloszkóppal
 
 ## 1. Kísérlet célja
-A kísérlet célja, hogy meghatározzuk a feszültség követő (buffer) áramkör viselkedését oszcilloszkóp és feszültség generátor segítségével. Vizsgáljuk meg, hogyan befolyásolja a feszültség követő az áramkörben alkalmazott jelet.
+A kísérlet célja, hogy megvizsgáljuk, hogyan viselkedik egy feszültség követő áramkör 1 kHz-es bemeneti jel esetén. A mérés során oszcilloszkópot és feszültséggenerátort használunk, hogy megfigyeljük, hogyan követi a feszültség követő a bemeneti jelet.
 
 ## 2. Használt eszközök
 - **Oszcilloszkóp**: [Márka és típus]
-- **Feszültséggenerátor**: [Márka és típus]
+- **Feszültséggenerátor**: [Márka és típus], beállítva 1 kHz-es szinuszos jel generálására
 - **Feszültségkövető áramkör**: [Áramkör típusa]
 - **Kábelek és csatlakozók**
-- **Súlyoszlopok** (ha szükséges)
 
 ## 3. Kísérleti elrendezés
-A feszültség követőt a feszültséggenerátor kimenetéhez csatlakoztattuk, hogy a kimeneti feszültség követése során az oszcilloszkóppal mérhessük az áramkör viselkedését.
+1. **Feszültséggenerátor**: A feszültséggenerátor kimenetét 1 kHz-es szinuszos jellel állítjuk be.
+2. **Feszültségkövető**: A generátor kimenetét a feszültségkövető bemenetére csatlakoztatjuk.
+3. **Oszcilloszkóp**: Az oszcilloszkópot a feszültségkövető kimenetéhez csatlakoztatjuk, hogy mérjük és vizualizáljuk a kimeneti jelet.
+4. A bemeneti és kimeneti jelet egyszerre figyeljük meg az oszcilloszkópon.
 
-### Kapcsolás
-1. A feszültséggenerátor kimenetét a feszültségkövető bemenetére csatlakoztattuk.
-2. A feszültségkövető kimenetét az oszcilloszkóp bemenetére csatlakoztattuk.
-3. Az oszcilloszkópot beállítottuk, hogy az analóg jelet megfelelően lássuk a képernyőn.
-
-## 4. Mérés menete
-### 4.1. Feszültség generálása
-A feszültséggenerátort egyenletes szinuszos jelet generálására használtuk 1 kHz frekvenciával és 1 V csúcsértékkel. A feszültségmérő eszközzel ellenőriztük a generált feszültséget.
-
-### 4.2. Feszültség követése
-A feszültségkövető áramkör lehetővé tette számunkra, hogy a bemeneti jel változásait a kimeneten is pontosan megfigyeljük. Az oszcilloszkópon a bemeneti és kimeneti jeleket egyidejűleg megjelenítettük, hogy összehasonlíthassuk azokat.
-
-### 4.3. Mérés a különböző frekvenciák mellett
-A méréseket különböző frekvenciákon is elvégeztük (500 Hz, 1 kHz, 5 kHz, 10 kHz), hogy lássuk, miként változik a feszültség követés pontossága.
+## 4. Kísérleti lépések
+1. Állítsuk be a feszültséggenerátort 1 kHz-es szinuszos jelre 1 V csúcsértékkel.
+2. Csatlakoztassuk a generátor kimenetét a feszültségkövető bemenetére.
+3. A feszültségkövető kimenetét csatlakoztassuk az oszcilloszkóp bemenetére.
+4. Az oszcilloszkópon állítsuk be a megfelelő időbázist, hogy a jel jól látható legyen.
+5. Vizsgáljuk meg a bemeneti és kimeneti jelet. A kísérlet során figyeljük meg, hogy a feszültségkövető áramkör hogyan követi a bemeneti jelet.
 
 ## 5. Eredmények
-### 5.1. Bemeneti jel
-Az oszcilloszkóp segítségével megfigyeltük, hogy a bemeneti jel tiszta szinuszos hullámot formált, 1 kHz frekvenciával és 1 V csúcsértékkel.
-
-### 5.2. Kimeneti jel
-A feszültségkövető pontosan lekövette a bemeneti jelet, és a kimeneti feszültség hullámformája azonos volt a bemeneti jellel, az oszcilloszkópon mérhető eltolódás vagy torzítás nélkül.
-
-### 5.3. Frekvencia függvényében
-A különböző frekvenciákon végzett mérések során az áramkör minden esetben pontosan követte a bemeneti jelet, és nem mutatott észlelhető torzítást, egészen 10 kHz-ig.
+- **Bemeneti jel**: Az oszcilloszkópon a bemeneti jel szinuszos hullámformát mutatott, 1 kHz frekvenciával és 1 V csúcsértékkel.
+- **Kimeneti jel**: A feszültségkövető pontosan lekövette a bemeneti jelet. A kimeneti jel azonos formájú volt, mint a bemeneti jel, és nem volt mérhető eltolódás vagy torzítás.
+- Az oszcilloszkóp képernyőjén a bemeneti és kimeneti jel azonos alakú és szinkronizált maradt.
 
 ## 6. Elemzés
-A mérések alapján a feszültség követő rendkívül jól teljesített, mivel a kimeneti jel minden frekvencián és szintű bemenetnél pontosan tükrözte a bemeneti feszültséget. Az oszcilloszkópos mérések megerősítették, hogy a feszültségkövető áramkör nem vezette be torzítást a jelekbe, és a jelek amplitúdója, formája a kívánt paraméterekhez illeszkedett.
+A mérések alapján megállapítható, hogy a feszültségkövető áramkör pontosan követi a bemeneti jelet 1 kHz-es frekvencián. A jel nem mutatott torzítást vagy eltolódást, így az áramkör jól teljesít ezen a frekvencián.
 
 ## 7. Következtetés
-A kísérlet során sikerült megfigyelni, hogy a feszültség követő áramkör megbízhatóan követte a bemeneti jelet oszcilloszkópos méréseink alapján. A mérések alapján a feszültségkövető áramkör ideális a jel pontos követésére magas frekvenciák mellett is.
+A feszültségkövető áramkör sikeresen követte a bemeneti jelet 1 kHz frekvencián, ami azt jelzi, hogy a kísérlet eredményei megfelelnek a várakozásoknak. A mérések alapján az áramkör ideális eszköz a jel pontos követésére anélkül, hogy torzítást okozna.
 
 ## 8. Ajánlások
-- A feszültségkövető alkalmazása jónak bizonyult a kísérlet során, és érdemes további vizsgálatokat végezni magasabb frekvenciákon is, hogy meghatározzuk az áramkör határait.
-- További tesztelés javasolt különböző bemeneti jelekkel, mint például háromszögjel, négyszögjel és egyéb nem szinuszos hullámformák.
+- Érdemes további méréseket végezni különböző frekvenciákon, hogy megvizsgáljuk a feszültségkövető áramkör működését szélesebb frekvenciatartományban.
+- Különböző típusú bemeneti jelekkel is végezhetünk méréseket (pl. négyszögjel, háromszögjel), hogy jobban megértsük az áramkör viselkedését.
 
 ---
 
-**Jegyzőkönyv vezetője**: [Név]  
-**Dátum**: [Dátum]
+**Jegyzőkönyv vezetője**: Tóth Sándor 
+**Dátum**: 2025.02.04.
