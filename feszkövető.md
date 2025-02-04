@@ -1,4 +1,4 @@
-# Jegyzőkönyv: Feszültség Követő Mérés 1 kHz-es Jel segítségével Oszcilloszkóppal
+# Jegyzőkönyv: Feszültség Követő Mérés Oszcilloszkóppal
 
 ## 1. Kísérlet célja
 A kísérlet célja, hogy megvizsgáljuk, hogyan viselkedik egy feszültség követő áramkör 1 kHz-es bemeneti jel esetén. A mérés során oszcilloszkópot és feszültséggenerátort használunk, hogy megfigyeljük, hogyan követi a feszültség követő a bemeneti jelet.
