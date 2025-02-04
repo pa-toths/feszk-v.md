@@ -38,6 +38,7 @@ A feszültségkövető áramkör sikeresen követte a bemeneti jelet 1 kHz frekv
 - Különböző típusú bemeneti jelekkel is végezhetünk méréseket (pl. négyszögjel, háromszögjel), hogy jobban megértsük az áramkör viselkedését.
 
 ---
+### 9. Képek
 
 ![bjiopiaetéhjaetophaetnbpákeé-batjopb,-aetdjohpdtg](https://github.com/user-attachments/assets/f032a984-f452-4087-8cc4-1492930b07bf)
 
