@@ -39,5 +39,10 @@ A feszültségkövető áramkör sikeresen követte a bemeneti jelet 1 kHz frekv
 
 ---
 
+![bjiopiaetéhjaetophaetnbpákeé-batjopb,-aetdjohpdtg](https://github.com/user-attachments/assets/f032a984-f452-4087-8cc4-1492930b07bf)
+
+![spsvsvojsrőbjpibk](https://github.com/user-attachments/assets/0b18436c-4ea9-4a8f-a7e9-e4533e2fed50)
+
+---
 **Jegyzőkönyv vezetője**: Tóth Sándor 
 **Dátum**: 2025.02.04.
