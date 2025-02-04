@@ -33,6 +33,10 @@ A mérések alapján megállapítható, hogy a feszültségkövető áramkör po
 ## 7. Következtetés
 A feszültségkövető áramkör sikeresen követte a bemeneti jelet 1 kHz frekvencián, ami azt jelzi, hogy a kísérlet eredményei megfelelnek a várakozásoknak. A mérések alapján az áramkör ideális eszköz a jel pontos követésére anélkül, hogy torzítást okozna.
 
+## Mérésben használt képletek
+Au=1
+
+
 ## 8. Ajánlások
 - Érdemes további méréseket végezni különböző frekvenciákon, hogy megvizsgáljuk a feszültségkövető áramkör működését szélesebb frekvenciatartományban.
 - Különböző típusú bemeneti jelekkel is végezhetünk méréseket (pl. négyszögjel, háromszögjel), hogy jobban megértsük az áramkör viselkedését.
